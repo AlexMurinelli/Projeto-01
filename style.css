@@ -14,6 +14,7 @@ h1{
 body{
     
     background-color: #ffeabf;
+    
 }
 
 h2{
@@ -28,13 +29,14 @@ p{
 }
 
 main{
-    
+    max-width: 608px;
+    min-width: 350px;
     
     background-color: #ffea9a;
     margin: auto;
     box-shadow: 5px 5px 5px;
     border-radius: 10px;
-    width:608px;
+    
     padding: 10px;
 }
 a{
@@ -83,7 +85,9 @@ a:hover{
    scale: 1.2;
 }
 .header {
-    width: 700px;
+    max-width: 800px;
+    min-width: 350px;
+    
     background-color: #ffea9a;
     position: -webkit-sticky;
     position: sticky;
